@@ -29,6 +29,10 @@ const (
 
 	HAMMING = MetricType(entity.HAMMING)
 	JACCARD = MetricType(entity.JACCARD)
+
+	L2     = MetricType(entity.L2)
+	IP     = MetricType(entity.IP)
+	COSINE = MetricType(entity.COSINE)
 )
 
 // defaultSchema is the default schema for milvus by eino
